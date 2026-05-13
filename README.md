@@ -1,11 +1,16 @@
 # xteink4-crosspoint-uploader
 
-Python script to recursively upload a local folder to a CrossPoint Reader over Wi-Fi.
+Python script to recursively upload a local folder to a [Xteink 4](https://www.xteink.com/products/xteink-x4) / [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader) over Wi-Fi.
 
 The script:
 - creates directories on the device via HTTP (`POST /mkdir`)
 - uploads files via WebSocket (`ws://<host>:81/`)
 - can optionally convert PDFs to EPUB before upload (Calibre)
+
+## Compatibility note
+
+This uploader should also work with other [xteink devices](https://www.xteink.com/) and may also work with the xteink firmware.
+However, this has not been tested yet.
 
 ## 1) Setup (starting with `.venv`)
 

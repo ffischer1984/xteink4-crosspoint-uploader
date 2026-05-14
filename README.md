@@ -1,6 +1,7 @@
 # xteink4-crosspoint-uploader
 
-Python script to recursively upload a local folder to a [Xteink 4](https://www.xteink.com/products/xteink-x4) / [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader) over Wi-Fi.
+Python script to recursively upload a local folder of pdf/epub-files to a [Xteink 4](https://www.xteink.com/products/xteink-x4) / [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader)-device over Wi-Fi.
+The Conversion of pdf to epub uses multithreading otherwise it takes to long. Maybe you have to playaround with this line ```PDF_WORKERS = os.cpu_count() or 4  # parallel Calibre processes for PDF conversion```in the uploay_folder.py
 
 The script:
 - creates directories on the device via HTTP (`POST /mkdir`)

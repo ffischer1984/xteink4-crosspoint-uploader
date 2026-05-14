@@ -143,7 +143,6 @@ pip install -r requirements.txt
 deactivate
 ```
 ## Sponsor me
-# Donations
 [![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EN22Z95HKGD74&source=url) 
 [![buymeacoffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/CWkjUYH)
 
